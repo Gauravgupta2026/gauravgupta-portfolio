@@ -3,24 +3,29 @@ import HeroSection from './HeroSection';
 
 const Header: React.FC = () => {
   return (
-    <div className="bg-gray-50">
-      <header>
+      <header className="bg-gray-50">
         <div className="relative py-4">
-          {/* Top left text */}
-          <div className="absolute mx-4">
-            <h1 className="text-md ">Gaurav Gupta</h1>
-          </div>
-          
-          {/* Centered text */}
-          <div className="text-center">
-            <span className="text-sm">
-              Engineering Student —— Developer, Adventurer, Photographer
-            </span>
+          <div className="mx-4 flex justify-between items-center">
+            {/* Left text */}
+            <div>
+              <h1 className="text-lg">Gaurav Gupta</h1>
+            </div>
+            
+            {/* Center text */}
+            <div className="text-center">
+              <p className="text-lg">
+                Engineering Student —— Developer, Adventurer, Photographer
+              </p>
+            </div>
+
+            {/* Right text */}
+            <div>
+              <p className="text-lg">Resume</p>
+            </div>
           </div>
         </div>
         <HeroSection />
       </header>
-    </div>
   );
 };
 
