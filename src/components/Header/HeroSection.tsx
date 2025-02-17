@@ -13,7 +13,8 @@ const HeroSection: React.FC = () => {
   }, []);
 
   return (
-    <div className='bg-gray-50'>
+    // <div className='bg-gray-50'>
+    <div className='bg-white'>
       <div className="mx-10 pt-40 pb-44 flex justify-center">
       <div className="bg-black px-10 py-6 max-w-2xl w-full">
         <div className="aspect-[16/9] relative overflow-hidden">
@@ -30,11 +31,11 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
       </div>
-      <div className='flex text-lg justify-between pb-8 mx-4'>
+      <div className='flex text-xl justify-between pb-8 mx-4'>
         <p>Socials</p>
 
-          <p>Manipal, KA</p>
-          <a href="mailto:gauravssa08@gmail.com" className="text-lg hover:underline">Send an Email</a>
+          <p className='text-xl'>Manipal, KA</p>
+          <a href="mailto:gauravssa08@gmail.com" className="text-xl hover:underline">Send an Email</a>
       </div>
 
       

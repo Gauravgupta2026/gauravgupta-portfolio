@@ -8,26 +8,23 @@ const collaborators = [
 
 export default function Collaborations() {
   return (
-    <section className="bg-white overflow-hidden mx-4 py-40">
+    <section className="bg-white overflow-hidden">
       
-      {/* <div className="grid grid-cols-2 pb-32">
-        <h2 className="text-4xl text-black font-light ">Collab</h2>
+      <div className=" pb-64">
+        <div className="text-center">
+        <p className=" text-center text-lg text-gray-400">So far, I have collaborated and helped...</p>
 
-        <div className="flex items-end">
-          <p className="text-black/60 text-md">
-            With the above projects, I have so far worked and helped...
-          </p>
         </div>
-      </div> */}
+      </div>
 
       {[...Array(1)].map((_, i) => (
-        <div key={i} className="flex justify-between gap-10">
+        <div key={i} className="flex mx-32 justify-between gap-4 pb-20 ">
           {collaborators.map((collab, index) => (
             <img
               key={index}
               src={collab}
               alt="Collaborator"
-              className="h-14 "
+              className="h-16 "
             />
           ))}
         </div>

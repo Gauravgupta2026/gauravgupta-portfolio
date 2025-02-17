@@ -4,23 +4,27 @@ import TechStack from '../../components/TechStack/TechStack';
 import Ambition from '../../components/Ambition/ambition';
 import Collaborations from '../../components/Collaborations/Collaborations';
 import Notes from '../../components/Notes/Notes';
-import { TextHoverEffectDemo } from '../../components/footer/footer';
-import Project from '../../components/Projects/newCards';
+
 import { Divider } from '@nextui-org/react';
+import Preview from '../../components/footer/scroll_Footer';
+import MediaBetweenTextScrollDemo from '../../components/Projects/newProjectCard';
 
 const Home: React.FC = () => {
   return (
     <>
       <Header />
-      <Ambition />  
+      {/* <Divider/> */}
+      <Ambition /> 
+      {/* <Divider/>  */}
       <TechStack /> 
-    
-
-    <Divider/>
-      <Project/>
-      <Collaborations/>
+      <Divider/>
+    <MediaBetweenTextScrollDemo/>
+      {/* <Project/> */}
+      {/* <Collaborations/> */}
+      <Divider/>
       <Notes/>
-      <TextHoverEffectDemo />
+      <Divider/>
+      <Preview/>
 
       
 

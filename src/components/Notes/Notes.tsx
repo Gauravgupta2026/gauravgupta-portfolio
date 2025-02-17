@@ -38,17 +38,14 @@ export default function Notes() {
     }, [isHovered]);
 
     return (
-      <section className="pt-10 pb-20 bg-gray-50 overflow-hidden">
+      <section className=" pt-10 pb-24 bg-white text-black overflow-hidden">
       <div className="mx-4">
-        <div className="grid grid-cols-2 pb-32">
-            <h2 className="text-4xl text-black font-light ">Notes</h2>
-              
-              <div className="flex items-end">
-                <p className="text-black/60 text-md">
-                  A collection of projects that showcase innovation across different domains - from mental health, research organization to fun games.
-                </p>
-              </div>
-            </div>
+      <div className="h-auto relative w-full pt-20 pb-20 flex flex-col items-center">
+      
+      <h3 className="text-5xl font-light text-start items-start justify-start sm:text-7xl tracking-wide">notes</h3>
+      <p className="mt-8 text-left text-lg text-gray-400">[thoughts*]</p>
+      
+    </div>
         <div 
           ref={scrollRef}
           onMouseEnter={() => setIsHovered(true)}

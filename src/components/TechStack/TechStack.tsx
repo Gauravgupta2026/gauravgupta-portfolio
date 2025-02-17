@@ -3,13 +3,18 @@ import React from 'react';
 const TechStack: React.FC = () => {
   const frameworks = [
     {
-      name: 'React',
-      logo: '/react.svg'
+      name: 'Figma',
+      logo: '/figma.svg'
     },
     {
       name: 'TypeScript',
       logo: '/typescript.svg'
     },
+    {
+      name: 'React',
+      logo: '/react.svg'
+    },
+    
     {
       name: 'Node.js',
       logo: '/node.svg'
@@ -22,10 +27,7 @@ const TechStack: React.FC = () => {
       name: 'Supabase',
       logo: '/supabase.svg'
     },
-    {
-      name: 'Figma',
-      logo: '/figma.svg'
-    },
+    
     {
       name: 'django',
       logo: '/django.svg'
@@ -34,14 +36,14 @@ const TechStack: React.FC = () => {
 
   return (
 
-        <div className="flex justify-center items-center bg-white gap-40 py-32 flex-wrap">
+        <div className=" flex justify-center items-center bg-white gap-20 py-20 flex-wrap ">
         {frameworks.map((framework, index) => (
             <img
             key={index}
             src={framework.logo}
             alt={framework.name}
             title={framework.name}
-            className="w-[65px] h-[65px] object-contain hover:scale-110 transition-transform"
+            className="w-[75px] h-[75px] object-contain hover:scale-110 transition-transform"
             />
         ))}
         </div>
