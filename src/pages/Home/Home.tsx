@@ -17,13 +17,13 @@ const Home: React.FC = () => {
       <Ambition /> 
       {/* <Divider/>  */}
       <TechStack /> 
-      <Divider/>
+      {/* <Divider/> */}
     <MediaBetweenTextScrollDemo/>
       {/* <Project/> */}
       {/* <Collaborations/> */}
-      <Divider/>
+      {/* <Divider/> */}
       <Notes/>
-      <Divider/>
+      {/* <Divider/> */}
       <Preview/>
 
       

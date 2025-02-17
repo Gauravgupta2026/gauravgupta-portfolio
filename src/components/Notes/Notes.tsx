@@ -38,9 +38,9 @@ export default function Notes() {
     }, [isHovered]);
 
     return (
-      <section className=" pt-10 pb-24 bg-white text-black overflow-hidden">
+      <section className=" pt-10 pb-24 bg-[#0c0c0c] text-[#F0F1F2]  overflow-hidden">
       <div className="mx-4">
-      <div className="h-auto relative w-full pt-20 pb-20 flex flex-col items-center">
+      <div className="h-auto relative w-full pt-20 pb-44 flex flex-col items-center">
       
       <h3 className="text-5xl font-light text-start items-start justify-start sm:text-7xl tracking-wide">notes</h3>
       <p className="mt-8 text-left text-lg text-gray-400">[thoughts*]</p>
@@ -56,9 +56,9 @@ export default function Notes() {
           {[...notes, ...notes].map((note, index) => (
             <div 
               key={index}
-              className="flex-shrink-0 w-[320px] h-[280px] bg-slate-200 hover:scale-200 transition-transform duration-600"
+              className="flex-shrink-0 w-[320px] h-[280px] bg-zinc-900 hover:scale-200 transition-transform duration-600"
             >
-              <div className="text-black/50 p-8">
+              <div className="text-white p-8">
                 <h3 className="text-lg">{note.title}</h3>
               </div>
             </div>

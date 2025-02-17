@@ -5,7 +5,7 @@ import UnderlineToBackgroundDemo from './nav_text';
 const Header: React.FC = () => {
   return (
       // <header className="bg-gray-50">
-      <header className="bg-white">
+      <header className="bg-[#0c0c0c] text-[#F0F1F2]">
         <div className="relative py-4">
           <div className="mx-4 flex justify-between items-center">
             {/* Left text */}

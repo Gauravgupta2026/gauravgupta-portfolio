@@ -14,9 +14,9 @@ const HeroSection: React.FC = () => {
 
   return (
     // <div className='bg-gray-50'>
-    <div className='bg-white'>
+    <div className='bg-[#0c0c0c] text-[#F0F1F2]'>
       <div className="mx-10 pt-40 pb-44 flex justify-center">
-      <div className="bg-black px-10 py-6 max-w-2xl w-full">
+      <div className="bg-white px-10 py-6 max-w-2xl w-full">
         <div className="aspect-[16/9] relative overflow-hidden">
           {heroImages.map((img, index) => (
             <img

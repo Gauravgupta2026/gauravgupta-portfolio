@@ -21,7 +21,7 @@ export default function UnderlineToBackgroundDemo() {
   return (
     <div className=" flex flex-col items-center justify-center ">
       <motion.h2
-        className="text-[#000000] text-xl"
+        className="text-[#F0F1F2] text-xl"
         initial="hidden"
         animate="visible"
         variants={fadeInVariants}
@@ -38,7 +38,7 @@ export default function UnderlineToBackgroundDemo() {
         <motion.span variants={wordVariants} className="inline-block">
           <UnderlineToBackground
             label="Resume"
-            targetTextColor="#f0f0f0"
+            targetTextColor="#000000"
             className="cursor-pointer"
           />
         </motion.span>
