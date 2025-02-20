@@ -48,14 +48,14 @@ export default function MediaBetweenTextScrollDemo() {
                 mediaType="video"
                 triggerType="inView"
                 useInViewOptionsProp={{ once: false, amount: 0.5 }}
-                mediaContainerClassName="w-full h-[60px] sm:h-[160px] overflow-hidden mx-1 sm:mx-16 mt-1 sm:mt-4"
+                mediaContainerClassName="w-full h-[60px] sm:h-[120px] overflow-hidden mx-1 sm:mx-12 mt-1 sm:mt-1"
                 className="cursor-pointer text-lg sm:text-4xl font-light flex flex-row items-center justify-center"
                 animationVariants={{
                   initial: { opacity: 0, y: 50 },
                   animate: {
                     opacity: 1,
                     y: 0,
-                    transition: { duration: 0.8, type: "spring", bounce: 0, delay: index * 0.2 },
+                    transition: { duration: 0.9, type: "spring", bounce: 0, delay: index * 0.2 },
                   },
                 }}
               />
