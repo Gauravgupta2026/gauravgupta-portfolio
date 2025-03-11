@@ -1,11 +1,10 @@
-import { Divider } from "@nextui-org/react";
-import TechStack from "../TechStack/TechStack";
+
 
 
 export default function Ambition() {
   return (
     <div className="bg-[#0c0c0c] text-[#F0F1F2]">
-      <div className="mx-4 pb-44 pt-44 ">
+      <div className="mx-4 pb-44">
         <div className="flex grid-cols-2  ">
           <div className="pr-36">
 

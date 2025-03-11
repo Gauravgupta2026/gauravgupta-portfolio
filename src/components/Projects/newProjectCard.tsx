@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import MediaBetweenText from "./reveal_project";
 
 const elements = [
@@ -30,8 +30,8 @@ export default function MediaBetweenTextScrollDemo() {
 //   };
 
   return (
-    <div className="w-dvw h-auto items-center justify-center bg-[#0c0c0c] text-[#F0F1F2] pb-32  overflow-visible">
-      <div className="h-auto relative w-full pt-44 pb-20 flex flex-col items-center">
+    <div className="w-dvw h-auto items-center justify-center bg-[#0c0c0c] text-[#F0F1F2] pb-20  overflow-visible">
+      <div className="h-auto relative w-full pt-20 flex flex-col items-center">
       
         <h3 className="text-5xl font-light text-start items-start justify-start sm:text-7xl tracking-wide">projects</h3>
         <p className="mt-8 text-left text-lg text-gray-400">[Selected*]</p>

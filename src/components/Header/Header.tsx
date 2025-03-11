@@ -1,5 +1,4 @@
 import React from 'react';
-import HeroSection from './HeroSection';
 import UnderlineToBackgroundDemo from './nav_text';
 
 const Header: React.FC = () => {
@@ -24,7 +23,6 @@ const Header: React.FC = () => {
             </div>
           </div>
         </div>
-        <HeroSection />
       </header>
   );
 };

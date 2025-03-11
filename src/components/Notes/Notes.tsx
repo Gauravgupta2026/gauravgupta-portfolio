@@ -38,9 +38,9 @@ export default function Notes() {
     }, [isHovered]);
 
     return (
-      <section className=" pt-10 pb-24 bg-[#0c0c0c] text-[#F0F1F2]  overflow-hidden">
+      <section className="pb-10 bg-[#0c0c0c] text-[#F0F1F2]  overflow-hidden">
       <div className="mx-4">
-      <div className="h-auto relative w-full pt-20 pb-44 flex flex-col items-center">
+      <div className="h-auto relative w-full pb-44 flex flex-col items-center">
       
       <h3 className="text-5xl font-light text-start items-start justify-start sm:text-7xl tracking-wide">notes</h3>
       <p className="mt-8 text-left text-lg text-gray-400">[thoughts*]</p>
