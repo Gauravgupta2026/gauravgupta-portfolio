@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+
 import MediaBetweenText from "./reveal_project";
 
 const elements = [
@@ -9,18 +9,18 @@ const elements = [
 ];
 
 export default function MediaBetweenTextScrollDemo() {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  // const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setScreenWidth(window.innerWidth);
+  //   };
 
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  //   window.addEventListener("resize", handleResize);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
 
 //   const lessThan = (size) => {
 //     if (size === "sm") {
