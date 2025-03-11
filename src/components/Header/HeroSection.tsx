@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { heroImages } from '../../data/constants';
-import { Divider } from '@nextui-org/react';
+
 
 const HeroSection: React.FC = () => {
   const [currentImage, setCurrentImage] = useState(0);

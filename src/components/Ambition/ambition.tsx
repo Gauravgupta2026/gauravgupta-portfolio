@@ -1,15 +1,14 @@
 import { Divider } from "@nextui-org/react";
-import TechStack from "../TechStack/TechStack";
 
 
 export default function Ambition() {
   return (
-    <div className="bg-white text-black">
-      <div className="mx-4 pb-44 pt-10 ">
-        <div className="flex grid-cols-2  ">
+    <div className="bg-white text-black ">
+      <div className="h-screen px-4 pb-44 pt-10 ">
+        <div className="flex grid-cols-2 pt-52 items-center justify-center">
           <div className="pr-36">
-            <Divider/>
-            <h3 className="text-lg pt-2  pr-4">Career ambitions</h3>
+            {/* <Divider/> */}
+            <h3 className="text-lg pt-2 pr-4">Career ambitions</h3>
             <p className="text-lg leading-relaxed pt-10">
               I aim for a position that gives me the power to influence the
               world through technology. I want to be part of something big and
@@ -18,7 +17,7 @@ export default function Ambition() {
             </p>
           </div>
           <div>
-          <Divider/>
+            {/* <Divider/> */}
             <h3 className="text-lg pt-2">Creative ambitions</h3>
             <p className="text-lg leading-relaxed pt-10 pr-20">
               I am future-oriented forever, and a fast mover. In this journey, I
@@ -30,9 +29,8 @@ export default function Ambition() {
             </p>
           </div>
         </div>
-        
       </div>
-    <Divider/>
+      <Divider/>
     </div>
   );
 }

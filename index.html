@@ -19,6 +19,22 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/grained/dist/grained.min.js">
+      var options = {
+        animate: true,
+        patternWidth: 100,
+        patternHeight: 100,
+        grainOpacity: 0.05,
+        grainDensity: 1,
+        grainWidth: 1,
+        grainHeight: 1
+      };
+
+grained("#grain", options);
+
+    </script>
+    
   </body>
 </html>

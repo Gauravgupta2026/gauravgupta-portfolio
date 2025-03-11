@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+
 import MediaBetweenText from "./reveal_project";
 
 const elements = [
@@ -9,18 +9,18 @@ const elements = [
 ];
 
 export default function MediaBetweenTextScrollDemo() {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  // const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setScreenWidth(window.innerWidth);
+  //   };
 
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  //   window.addEventListener("resize", handleResize);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
 
 //   const lessThan = (size) => {
 //     if (size === "sm") {
@@ -38,7 +38,7 @@ export default function MediaBetweenTextScrollDemo() {
         
       </div>
 
-      <div className="h-auto w-full flex flex-col space-y-44 mt-24 mb-44 justify-center items-center text-5xl ">
+      <div className="h-full w-full flex flex-col space-y-44 mt-24 mb-44 justify-center items-center text-5xl ">
         {elements.map((element, index) => (
             <a href={element.url} target="_blank" rel="noreferrer" key={index}>
               <MediaBetweenText
@@ -48,7 +48,7 @@ export default function MediaBetweenTextScrollDemo() {
                 mediaType="video"
                 triggerType="inView"
                 useInViewOptionsProp={{ once: false, amount: 0.5 }}
-                mediaContainerClassName="w-full h-[60px] sm:h-[160px] overflow-hidden mx-1 sm:mx-16 mt-1 sm:mt-4"
+                mediaContainerClassName="w-full h-[100px] sm:h-[160px] overflow-hidden mx-1 sm:mx-16 mt-1 sm:mt-4"
                 className="cursor-pointer text-lg sm:text-4xl font-light flex flex-row items-center justify-center"
                 animationVariants={{
                   initial: { opacity: 0, y: 50 },

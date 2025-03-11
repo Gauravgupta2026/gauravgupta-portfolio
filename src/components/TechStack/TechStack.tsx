@@ -36,7 +36,7 @@ const TechStack: React.FC = () => {
 
   return (
 
-        <div className=" flex justify-center items-center bg-white gap-20 py-20 flex-wrap ">
+        <div className=" flex justify-center items-center bg-white gap-32 py-20 flex-wrap ">
         {frameworks.map((framework, index) => (
             <img
             key={index}
