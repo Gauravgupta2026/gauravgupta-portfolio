@@ -36,14 +36,14 @@ const TechStack: React.FC = () => {
 
   return (
 
-        <div className=" flex justify-center items-center bg-white gap-32 py-20 flex-wrap ">
+        <div className=" flex justify-center items-center  gap-24 py-20 flex-wrap ">
         {frameworks.map((framework, index) => (
             <img
             key={index}
             src={framework.logo}
             alt={framework.name}
             title={framework.name}
-            className="w-[75px] h-[75px] object-contain hover:scale-110 transition-transform"
+            className="w-[64px] h-[64px] object-contain hover:scale-110 transition-transform"
             />
         ))}
         </div>

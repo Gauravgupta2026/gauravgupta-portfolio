@@ -1,4 +1,5 @@
 
+import TechStack from "../TechStack/TechStack";
 import MediaBetweenText from "./reveal_project";
 
 const elements = [
@@ -34,7 +35,7 @@ export default function MediaBetweenTextScrollDemo() {
       <div className="h-auto relative w-full pt-44 pb-20 flex flex-col items-center">
       
         <h3 className="text-5xl font-light text-start items-start justify-start sm:text-7xl tracking-wide">projects</h3>
-        <p className="mt-8 text-left text-lg text-gray-400">[Selected*]</p>
+        <p className="pt-8 text-left text-lg text-gray-400">[ Selected* ]</p>
         
       </div>
 
@@ -62,6 +63,11 @@ export default function MediaBetweenTextScrollDemo() {
             </a>
         ))}
       </div>
+      <div className="text-lg text-center text-gray-400 pt-20 pb-20">
+        [ These projects are built using ]
+        
+      </div>
+      <TechStack />
     </div>
   );
 }
