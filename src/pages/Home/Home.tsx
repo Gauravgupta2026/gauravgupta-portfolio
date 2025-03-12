@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import { Divider } from '@nextui-org/react';
+import {Divider} from "@heroui/divider";
 import Preview from '../../components/footer/scroll_Footer';
 import MediaBetweenTextScrollDemo from '../../components/Projects/newProjectCard';
 import NewNotes from '../../components/Notes/newNotes';
@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     <>
       <Header />
       <Divider/>
-    <MediaBetweenTextScrollDemo/>
+      <MediaBetweenTextScrollDemo/>
       <NewNotes/>
       <Preview/>
 
